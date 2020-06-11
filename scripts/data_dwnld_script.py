@@ -32,5 +32,7 @@ elif os.path.isdir(a) == False and os.path.isdir(b) == True:
     os.mkdir(a)
     downld()
     print('Success')
+elif os.path.isfile(te) and os.path.isfile(tr) and os.path.isfile(sub):
+    print('Файлы train.csv, test,csv, sample_submission.csv уже есть на ПК.')
 else:
-    print('Success')
+    print('Ошибка')

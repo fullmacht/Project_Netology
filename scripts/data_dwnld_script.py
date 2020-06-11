@@ -9,3 +9,4 @@ s = os.path.dirname(os.getcwd()[0:-7]) + r'\data\external\sample_submission.csv'
 y.download("/Netology/test.csv", te)
 y.download("/Netology/train.csv", tr)
 y.download("/Netology/sample_submission.csv", s)
+print('Success')
